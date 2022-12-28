@@ -1,0 +1,277 @@
+*{ 
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .container{
+  width: 1200px;
+  padding-left: 24px;
+  margin-right: 24px;
+  margin: auto;
+} */
+/* .navbar{
+  display: flex;
+  padding: 20px;
+  align-items: center
+  ;
+}
+  nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 17px;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+.menu_icon_img{
+  width: 30px;
+  height: 30px;
+} */
+
+
+
+.container{
+  width: 1200px;
+  padding-right: 24px;
+  margin-left: 24px;
+  margin: auto;
+   
+}
+.navbar{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  list-style-type: none;
+  display: inline-block;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 23px;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+.menu_icon_img{
+  width: 30px;
+  height: 30px;
+}
+p{
+  color: #000;
+}
+.row{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: wrap;
+    
+}
+.col-2{
+  min-width: 300px;
+  flex-basis: 50%;
+}
+
+.col-2 img{
+  width: 100%;
+  padding: 50px;
+}
+.col-2 h1{
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+ 
+.col_2_btn{
+  padding: 8px 20px;
+  background: #e26161;
+  border-radius: 30px;
+  color: #fff;
+  margin: 30px;
+  display: inline-block;
+  transition: background .5s;
+}
+.col_2_btn:hover{
+  background: #333;
+}
+ 
+.col-3 img{
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+.small_container{
+  max-width:1080px;
+  margin:auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4{
+  flex-basis: 25%;
+  padding:10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+.col-4 img{
+  width:100%;
+  margin-right: 5px;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.title::after{
+ 
+    content: '';
+    width: 80px;
+    height: 5px;
+    border-radius: 20px;
+    background: #e26161;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.col-4 p{
+  font-size: 14px;
+}
+/*here change the color of rating stars*/
+.rating .fa{
+  color:#ff523b;
+}
+.col-4:hover{
+  transform: translateY(-5px);
+}
+.offer{
+  background: radial-gradient(#fff,#ffd6d6);
+  padding: 30px 0;
+  margin-top: 80px;
+}
+.offer_img{
+  padding: 50px; 
+
+}
+.testimonial{
+  padding-top: 100px;
+}
+.col-3{
+  text-align: center;
+  justify-content: center;
+  padding: 30px 20px;
+  margin: 10px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+}
+
+/*brands*/
+.brands{
+  margin:100px auto;
+}
+.col-5{
+  width:160px;
+}
+.col-5 img{
+  width:100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.col-5 img:hover{
+  filter: grayscale(0);
+}
+.footer{
+  background: #000;
+  color:blanchedalmond;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p{
+  color:blanchedalmond;
+}
+
+.footer h3{
+  color:#fff;
+  margin-bottom: 20px;
+}
+.footer_container{
+  max-width: 1300px;
+  margin: auto; 
+  padding-left: 40px;
+  margin-left: 300px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+  
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+
+.footer-col-2{
+  flex:1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+
+}
+ul{
+  list-style-type: none;
+}
+.App-logo{
+  margin-top: 20px;
+}
+.App-logo img{
+  width: 140px;
+}
+.footer hr{
+  border:none;
+  background: #b5b5b5;/*change this color later*/
+  height: 1px;
+  margin:20px 0;
+
+}
+.copyright{
+  text-align: center;
+}
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+  
+}
